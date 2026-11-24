@@ -1,0 +1,241 @@
+
+===== BUDGET (budget_h0.csv) =====
+                                mrr         mrr_opt            kept        
+                               mean     std    mean     std    mean     std
+rewired use_h q   kind                                                     
+0       0     0.1 random     0.0981  0.0147  0.0981  0.0147  0.0999  0.0000
+                  selective  0.0923  0.0146  0.0923  0.0146  0.0999  0.0000
+              0.2 random     0.0971  0.0149  0.0971  0.0149  0.2000  0.0001
+                  selective  0.0905  0.0126  0.0905  0.0126  0.2000  0.0001
+              0.3 random     0.0927  0.0106  0.0927  0.0106  0.3000  0.0001
+                  selective  0.0837  0.0135  0.0837  0.0135  0.3000  0.0001
+              0.4 random     0.0915  0.0144  0.0915  0.0144  0.4001  0.0000
+                  selective  0.0828  0.0122  0.0828  0.0122  0.4001  0.0000
+              0.6 random     0.0885  0.0098  0.0885  0.0098  0.5999  0.0000
+                  selective  0.0787  0.0119  0.0787  0.0119  0.5999  0.0000
+              0.8 random     0.0853  0.0109  0.0853  0.0109  0.8000  0.0001
+                  selective  0.0751  0.0091  0.0751  0.0091  0.8000  0.0001
+              1.0 random     0.0780  0.0099  0.0780  0.0099  1.0000  0.0000
+                  selective  0.0784  0.0119  0.0784  0.0119  1.0000  0.0000
+1       0     0.1 random     0.0947  0.0122  0.0947  0.0122  0.0999  0.0000
+                  selective  0.0893  0.0142  0.0893  0.0142  0.0999  0.0000
+              0.2 random     0.0918  0.0125  0.0918  0.0125  0.2000  0.0001
+                  selective  0.0809  0.0104  0.0809  0.0104  0.2000  0.0001
+              0.3 random     0.0891  0.0131  0.0891  0.0131  0.3000  0.0001
+                  selective  0.0792  0.0108  0.0792  0.0108  0.3000  0.0001
+              0.4 random     0.0868  0.0158  0.0868  0.0158  0.4001  0.0000
+                  selective  0.0762  0.0096  0.0762  0.0096  0.4001  0.0000
+              0.6 random     0.0814  0.0121  0.0814  0.0121  0.5999  0.0000
+                  selective  0.0716  0.0113  0.0716  0.0113  0.5999  0.0000
+              0.8 random     0.0720  0.0096  0.0720  0.0096  0.8000  0.0001
+                  selective  0.0646  0.0088  0.0646  0.0088  0.8000  0.0001
+              1.0 random     0.0559  0.0040  0.0559  0.0040  1.0000  0.0000
+                  selective  0.0567  0.0048  0.0567  0.0048  1.0000  0.0000
+
+Selective vs Random at matched budget (paired over seed x stage):
+  rewired=0 H=0 q=0.10: dMRR=-0.0059  p=0.0441  n=20
+  rewired=0 H=0 q=0.20: dMRR=-0.0066  p=0.04  n=20
+  rewired=0 H=0 q=0.30: dMRR=-0.0090  p=0.00102  n=20
+  rewired=0 H=0 q=0.40: dMRR=-0.0087  p=0.0121  n=20
+  rewired=0 H=0 q=0.60: dMRR=-0.0098  p=8.2e-05  n=20
+  rewired=0 H=0 q=0.80: dMRR=-0.0101  p=6.29e-05  n=20
+  rewired=0 H=0 q=1.00: dMRR=+0.0004  p=0.452  n=20
+  rewired=1 H=0 q=0.10: dMRR=-0.0054  p=0.105  n=20
+  rewired=1 H=0 q=0.20: dMRR=-0.0109  p=0.000105  n=20
+  rewired=1 H=0 q=0.30: dMRR=-0.0099  p=0.000708  n=20
+  rewired=1 H=0 q=0.40: dMRR=-0.0106  p=5.72e-06  n=20
+  rewired=1 H=0 q=0.60: dMRR=-0.0098  p=0.000105  n=20
+  rewired=1 H=0 q=0.80: dMRR=-0.0073  p=0.00199  n=20
+  rewired=1 H=0 q=1.00: dMRR=+0.0008  p=0.216  n=20
+
+Real vs rewired (Selective) at each budget:
+  H=0 q=0.10: real-rewired dMRR=+0.0030  p=0.231
+  H=0 q=0.20: real-rewired dMRR=+0.0096  p=0.000708
+  H=0 q=0.30: real-rewired dMRR=+0.0045  p=0.0696
+  H=0 q=0.40: real-rewired dMRR=+0.0066  p=0.0215
+  H=0 q=0.60: real-rewired dMRR=+0.0071  p=0.00486
+  H=0 q=0.80: real-rewired dMRR=+0.0105  p=9.54e-06
+  H=0 q=1.00: real-rewired dMRR=+0.0217  p=3.81e-06
+
+===== BUDGET (budget_h1.csv) =====
+                                mrr         mrr_opt            kept        
+                               mean     std    mean     std    mean     std
+rewired use_h q   kind                                                     
+0       1     0.1 random     0.1039  0.0170  0.1039  0.0170  0.0999  0.0000
+                  selective  0.0990  0.0152  0.0990  0.0152  0.0999  0.0000
+              0.2 random     0.1034  0.0163  0.1034  0.0163  0.2000  0.0001
+                  selective  0.0987  0.0174  0.0987  0.0174  0.2000  0.0001
+              0.3 random     0.1002  0.0174  0.1002  0.0174  0.3000  0.0001
+                  selective  0.0941  0.0193  0.0941  0.0193  0.3000  0.0001
+              0.4 random     0.0948  0.0175  0.0948  0.0175  0.4001  0.0000
+                  selective  0.0951  0.0199  0.0951  0.0199  0.4001  0.0000
+              0.6 random     0.0923  0.0145  0.0923  0.0145  0.5999  0.0000
+                  selective  0.0957  0.0219  0.0957  0.0219  0.5999  0.0000
+              0.8 random     0.0932  0.0220  0.0932  0.0220  0.8000  0.0001
+                  selective  0.0942  0.0231  0.0942  0.0231  0.8000  0.0001
+              1.0 random     0.0904  0.0231  0.0904  0.0231  1.0000  0.0000
+                  selective  0.0929  0.0248  0.0929  0.0248  1.0000  0.0000
+1       1     0.1 random     0.0948  0.0111  0.0948  0.0111  0.0999  0.0000
+                  selective  0.0889  0.0126  0.0889  0.0126  0.0999  0.0000
+              0.2 random     0.0946  0.0130  0.0946  0.0130  0.2000  0.0001
+                  selective  0.0807  0.0112  0.0807  0.0112  0.2000  0.0001
+              0.3 random     0.0883  0.0122  0.0883  0.0122  0.3000  0.0001
+                  selective  0.0811  0.0131  0.0811  0.0131  0.3000  0.0001
+              0.4 random     0.0862  0.0115  0.0862  0.0115  0.4001  0.0000
+                  selective  0.0747  0.0099  0.0747  0.0099  0.4001  0.0000
+              0.6 random     0.0781  0.0110  0.0781  0.0110  0.5999  0.0000
+                  selective  0.0724  0.0126  0.0724  0.0126  0.5999  0.0000
+              0.8 random     0.0740  0.0097  0.0740  0.0097  0.8000  0.0001
+                  selective  0.0610  0.0085  0.0610  0.0085  0.8000  0.0001
+              1.0 random     0.0557  0.0068  0.0557  0.0068  1.0000  0.0000
+                  selective  0.0540  0.0061  0.0540  0.0061  1.0000  0.0000
+
+Selective vs Random at matched budget (paired over seed x stage):
+  rewired=0 H=1 q=0.10: dMRR=-0.0049  p=0.0696  n=20
+  rewired=0 H=1 q=0.20: dMRR=-0.0046  p=0.0532  n=20
+  rewired=0 H=1 q=0.30: dMRR=-0.0062  p=0.024  n=20
+  rewired=0 H=1 q=0.40: dMRR=+0.0003  p=0.729  n=20
+  rewired=0 H=1 q=0.60: dMRR=+0.0034  p=0.245  n=20
+  rewired=0 H=1 q=0.80: dMRR=+0.0010  p=0.898  n=20
+  rewired=0 H=1 q=1.00: dMRR=+0.0025  p=0.869  n=20
+  rewired=1 H=1 q=0.10: dMRR=-0.0058  p=0.0172  n=20
+  rewired=1 H=1 q=0.20: dMRR=-0.0139  p=3.62e-05  n=20
+  rewired=1 H=1 q=0.30: dMRR=-0.0072  p=0.0136  n=20
+  rewired=1 H=1 q=0.40: dMRR=-0.0115  p=8.2e-05  n=20
+  rewired=1 H=1 q=0.60: dMRR=-0.0057  p=0.0484  n=20
+  rewired=1 H=1 q=0.80: dMRR=-0.0129  p=1.91e-06  n=20
+  rewired=1 H=1 q=1.00: dMRR=-0.0017  p=0.349  n=20
+
+Real vs rewired (Selective) at each budget:
+  H=1 q=0.10: real-rewired dMRR=+0.0100  p=0.00121
+  H=1 q=0.20: real-rewired dMRR=+0.0181  p=0.000105
+  H=1 q=0.30: real-rewired dMRR=+0.0129  p=0.00169
+  H=1 q=0.40: real-rewired dMRR=+0.0203  p=0.000105
+  H=1 q=0.60: real-rewired dMRR=+0.0233  p=5.72e-06
+  H=1 q=0.80: real-rewired dMRR=+0.0332  p=1.91e-06
+  H=1 q=1.00: real-rewired dMRR=+0.0389  p=1.91e-06
+
+===== ROLLING-ORIGIN (test stage = T) =====
+
+mrr (mean over seeds):
+stage                 5       6       7       8
+model                                          
+AA               0.1126  0.1139  0.0820  0.1428
+CN               0.1040  0.1010  0.0752  0.1264
+HeurLR           0.1249  0.1340  0.0881  0.1644
+PA               0.0446  0.0385  0.0404  0.0500
+RandomMatched    0.0842  0.0921  0.0803  0.1147
+RandomMatched+H  0.0915  0.0999  0.0821  0.1299
+Recip            0.0601  0.0715  0.0479  0.0713
+distmult         0.0896  0.1020  0.0825  0.1339
+distmult+H       0.1028  0.1147  0.0887  0.1484
+rgcn             0.0685  0.0832  0.0699  0.1057
+rgcn+H           0.0752  0.0935  0.0777  0.1210
+selective        0.0757  0.0836  0.0719  0.1034
+selective+H      0.0787  0.0965  0.0798  0.1236
+
+mrr_opt (mean over seeds):
+stage                 5       6       7       8
+model                                          
+AA               0.1725  0.1276  0.1764  0.1431
+CN               0.2083  0.1664  0.1983  0.1620
+HeurLR           0.1770  0.1441  0.1798  0.1644
+PA               0.0990  0.0518  0.1394  0.0530
+RandomMatched    0.0842  0.0921  0.0803  0.1147
+RandomMatched+H  0.0915  0.0999  0.0821  0.1299
+Recip            0.4697  0.4096  0.4737  0.4266
+distmult         0.0896  0.1020  0.0825  0.1339
+distmult+H       0.1028  0.1147  0.0887  0.1484
+rgcn             0.0685  0.0832  0.0699  0.1057
+rgcn+H           0.0752  0.0935  0.0777  0.1210
+selective        0.0757  0.0836  0.0719  0.1034
+selective+H      0.0787  0.0965  0.0798  0.1236
+
+MRR std over seeds:
+stage                 5       6       7       8
+model                                          
+HeurLR           0.0044  0.0010  0.0003  0.0026
+RandomMatched    0.0099  0.0070  0.0055  0.0078
+RandomMatched+H  0.0096  0.0130  0.0048  0.0130
+distmult         0.0044  0.0028  0.0032  0.0035
+distmult+H       0.0126  0.0158  0.0051  0.0100
+rgcn             0.0060  0.0062  0.0029  0.0064
+rgcn+H           0.0134  0.0140  0.0079  0.0188
+selective        0.0088  0.0056  0.0078  0.0083
+selective+H      0.0089  0.0143  0.0073  0.0148
+
+Paired tests pooled over T=5..8 (seed x stage):
+  HeurLR             vs Recip             : dMRR=+0.0651  p=1.82e-12  n=40
+  HeurLR             vs AA                : dMRR=+0.0150  p=1.82e-12  n=40
+  selective+H        vs HeurLR            : dMRR=-0.0332  p=9.09e-12  n=40
+  rgcn+H             vs HeurLR            : dMRR=-0.0360  p=5.46e-12  n=40
+  distmult+H         vs HeurLR            : dMRR=-0.0142  p=1.16e-06  n=40
+  selective          vs rgcn              : dMRR=+0.0018  p=0.397  n=40
+  selective          vs RandomMatched     : dMRR=-0.0092  p=2.04e-07  n=40
+  selective+H        vs rgcn+H            : dMRR=+0.0028  p=0.183  n=40
+  selective+H        vs RandomMatched+H   : dMRR=-0.0062  p=0.0147  n=40
+  rgcn               vs distmult          : dMRR=-0.0202  p=1.82e-12  n=40
+
+HeurLR weights (mean over runs): {'PA': 0.032, 'CN': 1.039, 'AA': 0.489, 'Recip': 1.073}
+
+===== GATES =====
+
+--- use_h=0: overall kept=0.415
+             gate   kept      n
+relation                       
+chemical    0.910  0.409  37160
+electrical  0.888  0.462   4970
+          gate   kept      n
+count_q                     
+1        0.871  0.274  10540
+2        0.897  0.310  10530
+3        0.914  0.420  10530
+4        0.947  0.657  10530
+                   gate   kept      n
+persist_bin                          
+all-prior-stages  0.944  0.603   9340
+intermittent      0.905  0.414  20960
+new-at-input      0.883  0.270  11830
+               gate   kept      n
+reciprocated                     
+0             0.905  0.401  32520
+1             0.916  0.465   9610
+           gate   kept      n
+survives                     
+0         0.883  0.299  12770
+1         0.918  0.466  29360
+  gate~count: mean rho=+0.337  frac p<.05=1.00
+  gate~persistence: mean rho=+0.281  frac p<.05=1.00
+  gate~deg_pre: mean rho=+0.111  frac p<.05=0.70
+  gate~deg_post: mean rho=+0.113  frac p<.05=0.75
+  gate higher for synapses that survive to next stage? frac Mann-Whitney p<.05 = 1.00
+
+--- use_h=1: overall kept=0.398
+             gate   kept      n
+relation                       
+chemical    0.861  0.386  37160
+electrical  0.820  0.488   4970
+          gate   kept      n
+count_q                     
+1        0.828  0.254  10540
+2        0.843  0.292  10530
+3        0.865  0.411  10530
+4        0.890  0.635  10530
+                   gate   kept      n
+persist_bin                          
+all-prior-stages  0.882  0.580   9340
+intermittent      0.853  0.391  20960
+new-at-input      0.842  0.267  11830
+               gate   kept      n
+reciprocated                     
+0             0.855  0.388  32520
+1             0.861  0.433   9610
+           gate   kept      n
+survives                     
+0         0.838  0.284  12770
+1         0.864  0.448  29360
+  gate~count: mean rho=+0.346  frac p<.05=1.00
+  gate~persistence: mean rho=+0.260  frac p<.05=1.00
+  gate~deg_pre: mean rho=+0.028  frac p<.05=0.60
+  gate~deg_post: mean rho=+0.062  frac p<.05=0.60
+  gate higher for synapses that survive to next stage? frac Mann-Whitney p<.05 = 0.95

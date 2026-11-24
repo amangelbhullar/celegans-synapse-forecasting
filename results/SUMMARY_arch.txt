@@ -1,0 +1,73 @@
+===== ARCH: MRR mean (fixed split, stages 7-8) =====
+q                          0.1     0.4     1.0
+cfg  use_h kind                               
+base 0     random       0.0991  0.0885     NaN
+           randomfixed  0.0825  0.0680     NaN
+           rgcn            NaN     NaN  0.0769
+           selective    0.0934  0.0812     NaN
+     1     random       0.1039  0.0974     NaN
+           randomfixed  0.0930  0.0858     NaN
+           rgcn            NaN     NaN  0.0905
+           selective    0.1000  0.0970     NaN
+l1   0     random       0.0960  0.0933     NaN
+           randomfixed  0.0872  0.0817     NaN
+           rgcn            NaN     NaN  0.0899
+           selective    0.0933  0.0904     NaN
+     1     random       0.1003  0.0984     NaN
+           randomfixed  0.0950  0.0920     NaN
+           rgcn            NaN     NaN  0.0927
+           selective    0.1008  0.0975     NaN
+res  0     random       0.0965  0.0926     NaN
+           randomfixed  0.0885  0.0790     NaN
+           rgcn            NaN     NaN  0.0906
+           selective    0.0930  0.0871     NaN
+     1     random       0.1040  0.1021     NaN
+           randomfixed  0.0964  0.0870     NaN
+           rgcn            NaN     NaN  0.0963
+           selective    0.1050  0.0942     NaN
+
+Paired tests (seed x stage):
+  cfg=base H=0 q=0.1  selective  vs random     : dMRR=-0.0057  p=0.0441  n=20
+  cfg=base H=0 q=0.1  selective  vs randomfixed: dMRR=+0.0109  p=0.00233  n=20
+  cfg=base H=0 q=0.1  random     vs randomfixed: dMRR=+0.0166  p=0.000105  n=20
+  cfg=base H=0 q=0.4  selective  vs random     : dMRR=-0.0073  p=0.0328  n=20
+  cfg=base H=0 q=0.4  selective  vs randomfixed: dMRR=+0.0132  p=2.67e-05  n=20
+  cfg=base H=0 q=0.4  random     vs randomfixed: dMRR=+0.0205  p=3.81e-06  n=20
+  cfg=base H=1 q=0.1  selective  vs random     : dMRR=-0.0040  p=0.0696  n=20
+  cfg=base H=1 q=0.1  selective  vs randomfixed: dMRR=+0.0070  p=0.0296  n=20
+  cfg=base H=1 q=0.1  random     vs randomfixed: dMRR=+0.0110  p=0.000851  n=20
+  cfg=base H=1 q=0.4  selective  vs random     : dMRR=-0.0004  p=0.729  n=20
+  cfg=base H=1 q=0.4  selective  vs randomfixed: dMRR=+0.0113  p=0.000708  n=20
+  cfg=base H=1 q=0.4  random     vs randomfixed: dMRR=+0.0117  p=0.00315  n=20
+  cfg=l1   H=0 q=0.1  selective  vs random     : dMRR=-0.0026  p=0.0826  n=20
+  cfg=l1   H=0 q=0.1  selective  vs randomfixed: dMRR=+0.0061  p=0.00143  n=20
+  cfg=l1   H=0 q=0.1  random     vs randomfixed: dMRR=+0.0087  p=0.00102  n=20
+  cfg=l1   H=0 q=0.4  selective  vs random     : dMRR=-0.0029  p=0.245  n=20
+  cfg=l1   H=0 q=0.4  selective  vs randomfixed: dMRR=+0.0088  p=0.00831  n=20
+  cfg=l1   H=0 q=0.4  random     vs randomfixed: dMRR=+0.0117  p=6.29e-05  n=20
+  cfg=l1   H=1 q=0.1  selective  vs random     : dMRR=+0.0005  p=0.985  n=20
+  cfg=l1   H=1 q=0.1  selective  vs randomfixed: dMRR=+0.0058  p=0.0441  n=20
+  cfg=l1   H=1 q=0.1  random     vs randomfixed: dMRR=+0.0053  p=0.00121  n=20
+  cfg=l1   H=1 q=0.4  selective  vs random     : dMRR=-0.0010  p=0.985  n=20
+  cfg=l1   H=1 q=0.4  selective  vs randomfixed: dMRR=+0.0055  p=0.165  n=20
+  cfg=l1   H=1 q=0.4  random     vs randomfixed: dMRR=+0.0065  p=0.0073  n=20
+  cfg=res  H=0 q=0.1  selective  vs random     : dMRR=-0.0034  p=0.0583  n=20
+  cfg=res  H=0 q=0.1  selective  vs randomfixed: dMRR=+0.0045  p=0.0637  n=20
+  cfg=res  H=0 q=0.1  random     vs randomfixed: dMRR=+0.0079  p=0.000483  n=20
+  cfg=res  H=0 q=0.4  selective  vs random     : dMRR=-0.0055  p=0.024  n=20
+  cfg=res  H=0 q=0.4  selective  vs randomfixed: dMRR=+0.0082  p=0.00944  n=20
+  cfg=res  H=0 q=0.4  random     vs randomfixed: dMRR=+0.0137  p=0.00021  n=20
+  cfg=res  H=1 q=0.1  selective  vs random     : dMRR=+0.0010  p=0.571  n=20
+  cfg=res  H=1 q=0.1  selective  vs randomfixed: dMRR=+0.0086  p=0.000261  n=20
+  cfg=res  H=1 q=0.1  random     vs randomfixed: dMRR=+0.0076  p=0.00639  n=20
+  cfg=res  H=1 q=0.4  selective  vs random     : dMRR=-0.0079  p=0.024  n=20
+  cfg=res  H=1 q=0.4  selective  vs randomfixed: dMRR=+0.0071  p=0.0266  n=20
+  cfg=res  H=1 q=0.4  random     vs randomfixed: dMRR=+0.0150  p=1.34e-05  n=20
+
+Full-graph R-GCN (q=1) vs DistMult (no message passing), same split:
+  cfg=base H=0: rgcn=0.0769  distmult=0.1003  p=1.91e-06
+  cfg=base H=1: rgcn=0.0905  distmult=0.1116  p=0.000586
+  cfg=l1   H=0: rgcn=0.0899  distmult=0.1003  p=2.67e-05
+  cfg=l1   H=1: rgcn=0.0927  distmult=0.1116  p=0.00102
+  cfg=res  H=0: rgcn=0.0906  distmult=0.1003  p=6.29e-05
+  cfg=res  H=1: rgcn=0.0963  distmult=0.1116  p=0.0121
